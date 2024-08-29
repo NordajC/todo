@@ -1,4 +1,3 @@
-
   *, body{
     font-family: "Inter", sans-serif;
   }
@@ -35,7 +34,7 @@
   .todo-item{
     margin:  1em 0 1em 0;
     display: flex;
-    align-items: center; /* Centers items vertically */
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -75,5 +74,5 @@
   }
 
   .todo-item.checked {
-    background-color: #a4a4a4; /* Grey out the background when checked */
+    background-color: #a4a4a4; 
   }
